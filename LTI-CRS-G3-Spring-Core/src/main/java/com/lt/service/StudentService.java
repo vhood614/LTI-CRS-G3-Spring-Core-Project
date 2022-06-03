@@ -37,7 +37,7 @@ public class StudentService implements StudentServiceInterface {
 	@Override
 	public void payFee() {
 		// TODO Auto-generated method stub
-
+studentDao.payFee();
 	}
 
 	@Override

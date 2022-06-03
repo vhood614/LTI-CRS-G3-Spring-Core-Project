@@ -8,9 +8,26 @@ import java.util.Scanner;
 import com.lt.bean.Student;
 import com.lt.bean.User;
 
+/**
+ * 
+ * UserDao class implementing the UserDaoInterface to get the unimplemented methods.
+ * 
+ * @author Group3
+ * @return Nothing
+ *
+ */
 public class UserDao implements UserDaoInterface {
 	Scanner sc = new Scanner(System.in);
-
+	
+	/**
+	 * 
+	 * Here is a loginUsers method, which will be used to get the list
+	 * of all login users.
+	 * 
+	 * @author Group3
+	 * @return Nothing
+	 *
+	 */
 	@Override
 	public List<User> loginUsers() {
 		// TODO Auto-generated method stub
@@ -33,6 +50,14 @@ public class UserDao implements UserDaoInterface {
 		
 	}
 	
+	/**
+	 * 
+	 * Here is a createRegistrationScreen method, which will be used to create the Registration screen from the welcome menu
+	 * 
+	 * @author Group3
+	 * @return Nothing
+	 *
+	 */
 	public void createRegistrationScreen() {
 
 		System.out.println("Enter required details for registration: ");

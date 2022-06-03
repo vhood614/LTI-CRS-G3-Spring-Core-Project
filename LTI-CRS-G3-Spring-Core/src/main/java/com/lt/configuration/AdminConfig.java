@@ -13,7 +13,8 @@ import com.lt.service.AdminServiceInterface;
  * @author 91988
  *
  */
-
+//Note: this is a configuration class which is representing @Configuration.
+//@Bean annotation which is applied on method to specify that is return a bean to be managed by springcontext.
 @Configuration
 public class AdminConfig {
 

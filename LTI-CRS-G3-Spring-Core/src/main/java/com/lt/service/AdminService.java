@@ -22,44 +22,6 @@ public class AdminService implements AdminServiceInterface {
 
 	}
 
-	public void removeProfessor() {
-
-	}
-
-	public void viewCourses() {
-
-	}
-
-	public void updateCourse() {
-
-	}
-
-	public void viewProfessorDetails() {
-
-	}
-
-	public void updateProfessorDetails() {
-
-	}
-
-	@Override
-	public void adminLogin() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void removeProfessor(int id) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void viewCourse() {
-		// TODO Auto-generated method stub
-
-	}
-
 	@Override
 	public void approveStudentRegistration() {
 		// TODO Auto-generated method stub
